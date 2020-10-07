@@ -1,0 +1,76 @@
+body {
+  background-size: cover;
+  background-image: url(./Assets/Angelo\ &\ I.JPG);
+}
+
+.my-row {
+  margin-bottom: 3%;
+}
+
+.my-col {
+  border: solid 2px orange;
+}
+
+.my-container {
+  height: 5%;
+  width: 50%;
+  background-color: transparent;
+  margin-left: 35%;
+}
+
+.card {
+  background-color: grey;
+  background-blend-mode: overlay;
+  border: none;
+  margin-top: 30%;
+  width: 200%;
+  height: 500px;
+}
+
+h3 {
+  text-align: center;
+  position: top;
+}
+
+.my-footer {
+  color: white;
+  text-align: center;
+  background-color: rgb(54, 75, 75);
+  font-family: "Montserrat", sans-serif;
+  z-index: 150;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  padding-top: 10px;
+  max-height: 40px;
+  padding-bottom: 0px;
+}
+
+p {
+  color: white;
+  text-align: right;
+}
+
+.img-fluid {
+  margin-top: 11%;
+  margin-left: 25%;
+  width: 75%;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+.navbar {
+  flex-direction: row;
+  position: sticky;
+  top: 0px;
+  font-family: "Montserrat", sans-serif;
+  z-index: 300;
+}

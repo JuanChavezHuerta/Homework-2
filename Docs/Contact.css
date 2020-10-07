@@ -1,0 +1,23 @@
+.my-footer {
+  color: white;
+  text-align: center;
+  background-color: rgb(54, 75, 75);
+  font-family: "Montserrat", sans-serif;
+  z-index: 150;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  padding-top: 10px;
+  max-height: 40px;
+  padding-bottom: 0px;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.my-row {
+  margin-top: 15%;
+  margin-left: 30%;
+}
